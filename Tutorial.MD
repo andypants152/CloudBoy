@@ -6,10 +6,9 @@ it'll work out of 16bibbles of ram, cause um... marketing won?
 I'm going to start with the gbdk playground and go to tonc..
 
 if you want something finished go see
-https://www.gbstudio.dev/
+[The Amazing Work on GB Studio](https://www.gbstudio.dev/)
 
-## Actually.. First here I want..
-
+## Let's get Started!
 
 **ETA** I unno yet, here take this pass and tell me your wait time.
 
@@ -19,12 +18,16 @@ will has clicks for it later?
 I'm ignoring google cloud repo for.. lets say political reasons.
 
 does want set who you is where?
+
 he means..
+
+
 might get more better later, but I don't want to 
 bash my head with branching more right now
 it's where I see the most ui need enough as it stands.
 
-## Let's get Started!
+
+## Ya got any of them names?
 
 First lets go find two ways to set 
 global user and gloabl email in the git config
@@ -48,6 +51,9 @@ cat ~/.gitconfig
 ```
 
 if that looks good let's move on...
+
+NO! when we make branches cool add auto naming. 
+might need my own git repo thing for that..
 
 ## Add SSH Key
 
@@ -76,6 +82,38 @@ cat ~/.ssh/id_ed25519
 ```
 [GitHub Add Key](https://github.com/settings/ssh/new)
 or email it to me lol
+
+## Add GPG Key
+
+```sh
+gpg --full-generate-key
+```
+### Generate the key
+
+it'll ask you to pick a key type
+the default, or **RSA** RSA is fine 
+
+bits is **4096**
+make a fun passphrase for it too
+
+then it'll output a "SPECIAL CODE". 
+the first hurdle is guessing which is special
+
+```sh
+gpg --armor --export "SPECIAL CODE"
+```
+
+then add it to [GitHub](https://github.com/settings/gpg/new) of course..
+
+**HINT** the "SPECIAL CODE" will return
+
+```terminal
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+    ~~~~~~secret sauce~~~
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+### With that added let's continue..
 
 ## Next GB Info
 
