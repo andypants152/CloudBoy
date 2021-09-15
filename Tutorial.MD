@@ -13,19 +13,19 @@ if you want something finished go see
 **ETA** I unno yet, here take this pass and tell me your wait time.
 
 ### Setting Up Accounts
+oh no I'm terrible
 
-will has clicks for it later?
-I'm ignoring google cloud repo for.. lets say political reasons.
+```sh
+gcloud config set disable_usage_reporting true
+```
 
-does want set who you is where?
+cough cough 
 
-he means..
+**ctrl-alt-T**
 
+**RLZ Disable**
 
-might get more better later, but I don't want to 
-bash my head with branching more right now
-it's where I see the most ui need enough as it stands.
-
+does check that rlz status says disabled lol
 
 ## Ya got any of them names?
 
@@ -114,6 +114,32 @@ then add it to [GitHub](https://github.com/settings/gpg/new) of course..
 ```
 
 ### With that added let's continue..
+
+## BashRC?
+
+don't know her.. how about
+```sh
+touch ~/.bash_aliases
+```
+### create a folder of ..
+
+<walkthrough-editor-open-file filePath=".bash_aliases">**aliasi says me**</walkthrough-editor-open-file>
+
+
+### **Recommend** you add 
+
+```
+alias tst="echo tested"
+```
+
+```sh
+source ~/.bashrc
+```
+
+### and reload so it speaks your new lisps
+```sh
+tst
+```
 
 ## Next GB Info
 
